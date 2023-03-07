@@ -1,7 +1,7 @@
 import './globals.css'
-import { Inter } from '@next/font/google'
+import { Roboto_Slab } from '@next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const robotoSlab = Roboto_Slab({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'codewithjom',
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${inter.className}`}>{children}</body>
+      <body className={`${robotoSlab.className}`}>{children}</body>
     </html>
   )
 }
