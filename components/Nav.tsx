@@ -1,4 +1,4 @@
-import { Fira_Code, Londrina_Solid } from '@next/font/google'
+import { Fira_Code, Londrina_Solid } from 'next/font/google'
 import Link from 'next/link'
 
 const firaCode = Fira_Code({ subsets: ['latin'] })
