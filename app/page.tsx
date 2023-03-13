@@ -1,5 +1,3 @@
-'use client'
-
 import Nav from '@/components/Nav'
 import Intro from '@/components/Intro'
 import Projects from '@/components/Projects'

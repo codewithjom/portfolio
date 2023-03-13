@@ -1,4 +1,4 @@
-import { Londrina_Solid } from '@next/font/google'
+import { Londrina_Solid } from 'next/font/google'
 import Link from 'next/link'
 
 const londrina = Londrina_Solid({ weight: '400', subsets: ['latin'] })
