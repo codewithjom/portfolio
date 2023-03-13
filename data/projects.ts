@@ -1,17 +1,20 @@
 export default [
   {
-    title: 'Project 1',
-    stack: ['NextJS', 'Tailwindcss', 'Prisma'],
-    link: 'https://github.com/codewithjom'
+    title: 'PostIt',
+    img: '/postit.png',
+    stack: ['NextJS', 'Tailwindcss', 'Prisma', 'FullStack'],
+    link: 'https://github.com/codewithjom/post-it'
   },
   {
-    title: 'Project 2',
-    stack: ['NextJS', 'Tailwindcss', 'Prisma'],
-    link: 'https://github.com/codewithjom'
+    title: 'Coming Soon',
+    img: '',
+    stack: [],
+    link: '#'
   },
   {
-    title: 'Project 3',
-    stack: ['NextJS', 'Tailwindcss', 'Prisma'],
-    link: 'https://github.com/codewithjom'
+    title: 'Coming Soon',
+    img: '',
+    stack: [],
+    link: '#'
   }
 ]
